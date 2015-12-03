@@ -131,6 +131,7 @@ http://keith-wood.name/localisation.html
     localizeForSpecialKeys = function(elem, value) {
       setAttrFromValueForKey(elem, "title", value);
       setAttrFromValueForKey(elem, "href", value);
+      setAttrFromValueForKey(elem, "class", value);
       return setTextFromValueForKey(elem, "text", value);
     };
     localizeOptgroupElement = function(elem, key, value) {
